@@ -1,0 +1,99 @@
+/* Reset styles for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 90vw;
+  }
+  
+  /* Nav section */
+  .nav {
+    flex: 0 0 15%; /* Fixed width for Nav */
+    background-color: #d0f0c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Main content (Header, Article, Aside, Footer) */
+  .main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Header */
+  .header {
+    flex: 0 0 20%; /* Fixed height for Header */
+    background-color: #b0d350;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Content: Article and Aside */
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .article {
+    flex: 2; /* Larger area for Article */
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .aside {
+    flex: 1; /* Smaller area for Aside */
+    background-color: #f5f5dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Footer */
+  .footer {
+    flex: 0 0 10%; /* Fixed height for Footer */
+    background-color: #b0d350;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Responsive Design for Smaller Screens */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .nav {
+      flex: 0 0 10%;
+    }
+  
+    .content {
+      flex-direction: column;
+    }
+  }
+  
