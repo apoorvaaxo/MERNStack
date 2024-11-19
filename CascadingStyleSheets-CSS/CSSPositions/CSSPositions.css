@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.positionContainer{
+    background-color: bisque;
+    padding:20px;
+    border:2px solid black;
+    
+    
+}
+
+.box {
+    width:50px;
+    height:50px;
+    border:8px solid yellow;
+    
+
+}
+.box1 {
+   background-color: blue;
+    
+}
+.box2 {
+  background-color: brown;
+   
+}
+.box3 {
+  background-color: cadetblue;
+  position: sticky;
+  top:180px;
+    
+}

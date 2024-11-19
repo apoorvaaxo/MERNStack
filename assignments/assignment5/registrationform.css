@@ -1,0 +1,57 @@
+
+body{
+   margin-left: 25rem;
+}
+/* Styling the A4-sized form container */
+.a4size {
+    width: 210mm; /* A4 width */
+    height: 297mm; /* A4 height */
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+
+/* Form layout and styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 80;
+    height: 80;
+}
+.checkbox{
+    margin-right: 48rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    text-align: center;
+
+  }
+  
+  .blue-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 150px; 
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .blue-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  

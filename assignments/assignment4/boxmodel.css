@@ -1,0 +1,29 @@
+.container1{
+    background-color: beige;
+    color: black;
+    margin-left:25%;
+    margin-right: 25%;
+   padding:2%;
+    border-style:dashed;
+    border-color: orange;
+    
+}
+.container2{
+    background-color: beige;
+    color: black;
+    margin-right: 70%;
+    margin-left: 5%;
+    padding: 2%;  
+    border-top-style: double;
+    border-bottom-style: double;
+    border-width:0.5rem;
+}
+.container3 {
+    background-color: burlywood;
+    padding: 2%;
+    border-style: groove;
+    border-width: 0.5rem;
+    border-color: brown;
+   margin-left: 35%;
+   margin-right: 10%;
+}

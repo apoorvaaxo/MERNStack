@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.pixel{
+    width:200px;
+    height: 20px;
+    background-color: blue;
+}
+
+.percentage{
+    width:50%;
+    height: 20px;
+    background-color: aqua;
+}
+.viewportWidth{
+    width:20vw;
+    height:30px;
+    background-color: red;
+}
+.viewportHeight{
+    height: 20vh;
+    width:120px;
+    background-color: blueviolet;
+}

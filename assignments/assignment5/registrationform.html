@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="./registrationform.css">
+</head>
+<body>
+    <section class="a4size">
+        <form>
+            <h1>User Registration Form</h1>
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" required>
+            <br>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" required>
+            <br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" required>
+            <br>
+            <label for="confirm-password">Confirm Password:</label><br>
+            <input type="password" id="confirm-password" required>
+            <br>
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" required>
+            <br>
+            <label for="profile-picture">Profile Picture:</label><br>
+            <input type="file" id="profile-picture" name="profile-picture">
+            <br>
+            <label for="comments">Comments/Feedback:</label><br>
+            <textarea id="comments"></textarea>
+            <br>
+            <label for="newsletter">Newsletter Subscription:</label><br>
+<select id="newsletter">
+  <option value="weekly">Weekly</option>
+  <option value="monthly" selected>Monthly</option>
+  <option value="quarterly">Quarterly</option>
+  <option value="yearly">Yearly</option>
+</select>
+            <br>
+            <input type="checkbox" id="terms" class="checkbox">
+            <label for="terms">
+                I agree to the <a href="./termsandcondition">Terms and Conditions</a>
+            </label>
+            <br>
+           <div class="button-container">
+            <button class="blue-button">Register</button>
+            <button class="blue-button">Sign In</button>
+           </div>
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,25 @@
+* {
+    margin:0;
+    padding:0;
+    
+}
+body{
+    overflow-x: hidden;
+}
+.product-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin: -9rem;
+ 
+}
+.productcard{
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+
+}

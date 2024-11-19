@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: blanchedalmond;
+    width:700px;
+    height:300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container p{
+    padding: 10px;
+    border: 5px solid green;
+    margin:10px;
+}
+.specialBox{
+    width:120px;
+    height:120px;
+    border:5px solid black;
+    padding: 20px;
+    margin:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:orangered;
+    color:white;
+}
